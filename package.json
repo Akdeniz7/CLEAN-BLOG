@@ -1,0 +1,26 @@
+{
+  "name": "clean-blog",
+  "version": "1.0.0",
+  "description": "Clean Blog Page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akdeniz7/CLEAN-BLOG.git"
+  },
+  "author": "Ahmet Sezer Akdeniz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akdeniz7/CLEAN-BLOG/issues"
+  },
+  "homepage": "https://github.com/Akdeniz7/CLEAN-BLOG#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prettier": "2.8.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
