@@ -10,7 +10,7 @@
             <div class="col-lg-8 col-md-10 mx-auto">
               <div class="site-heading">
                 <h1>Clean Blog</h1>
-                <span class="subheading">A Blog Theme by Start Bootstrap</span>
+                <span class="subheading">Clean Blog Start Bootstrap Theme</span>
               </div>
             </div>
           </div>
@@ -25,7 +25,7 @@
             <div class="col-lg-8 col-md-10 mx-auto">
               <% for (let i=0; i < blogs.length; i++) { %>
                 <div class="post-preview">
-                  <a href="/blogs/<%= blogs[i]._id %>">
+                  <a href="/post/<%= blogs[i]._id %>">
                     <h2 class="post-title">
                       <%= blogs[i].title %>
                     </h2>
