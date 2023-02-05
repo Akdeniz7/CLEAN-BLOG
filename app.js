@@ -9,10 +9,20 @@ const postController = require('./controllers/postController');
 const app = express();
 
 mongoose.set('strictQuery', true);
-mongoose.connect('mongodb://127.0.0.1/blog-db', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose
+  .connect(
+    'mongodb+srv://akdeniz:3bhPoyOGZP2rKIMF@cluster0.hm70bro.mongodb.net/clean-blog-db?retryWrites=true&w=majority',
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    }
+  )
+  .then(() => {
+    console.log('DB CONNECTED');
+  })
+  .catch((err) => {
+    console.log(err);
+  });
 
 //TEMPLATE ENGINE
 app.set('view engine', 'ejs');
@@ -33,7 +43,7 @@ app.post('/blog', postController.createPost);
 app.delete('/blogs/:id', postController.deletePost);
 app.put('/blogs/:id', postController.updatePost);
 
-const port = 3000;
+const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log(`Sunucu ${port} portunda başlatıldı`);
 });
