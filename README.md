@@ -16,3 +16,6 @@ You can delete or update the post on this screen where you can view the details 
 ### BLOG EDIT PAGE 
 On this page, you can update the title and description sections of the post you selected.
 ![edit post](https://user-images.githubusercontent.com/103189726/216841112-015ee428-c28a-4dd1-928f-9205d87b5520.png)
+
+https://clean-blog-app.onrender.com
+
