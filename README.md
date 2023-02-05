@@ -13,6 +13,6 @@ You can create new posts on this page.
 You can delete or update the post on this screen where you can view the details of your post.
 ![post detail](https://user-images.githubusercontent.com/103189726/216841107-049e1c9f-f761-4ab1-9422-09b1baa8e19b.png)
 
-###BLOG EDIT PAGE 
+### BLOG EDIT PAGE 
 On this page, you can update the title and description sections of the post you selected.
 ![edit post](https://user-images.githubusercontent.com/103189726/216841112-015ee428-c28a-4dd1-928f-9205d87b5520.png)
